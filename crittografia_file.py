@@ -7,7 +7,6 @@ def crittografia():
         passwd = input("\nenter password --------> ")
         if passwd == password:
             os.system('clear')
-            print("ok perfetto")
             os.system('python3 password.py')
             exit()
         else:
