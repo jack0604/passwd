@@ -19,7 +19,7 @@ def credenziali():
     print(" * * * * ")
     time.sleep(4)
     f = open("Guida.txt","w")
-    f.write("per maggiori info sulla password")
+    f.write(nome + passwd)
     f.write("\nPassword è koala")
     f.close()
     time.sleep(10)
